@@ -1,0 +1,28 @@
+.cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+    border: 2px solid lightgrey;
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
